@@ -11,8 +11,7 @@ iconHamburger.addEventListener("click", function(){
     
         console.log("menù aperto");
     
-
-        hamburgerMenu.style.display = "block";   
+        hamburgerMenu.classList.add("active");  
         console.log(hamburgerMenu);
     }
     
@@ -28,7 +27,7 @@ iconClose.addEventListener("click", function(){
 
         console.log("menù chiuso");
 
-        hamburgerMenu.style.display = "none";
+        hamburgerMenu.classList.remove("active");
         console.log(hamburgerMenu);
     }
 )

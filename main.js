@@ -17,3 +17,18 @@ iconHamburger.addEventListener("click", function(){
     }
     
 )
+
+// Seleziono l'icona della chiusura menu
+const iconClose = document.querySelector(".fas.fa-times");
+console.log(iconClose);
+
+
+// Al clic del mouse chiudo il menu
+iconClose.addEventListener("click", function(){
+
+        console.log("menù chiuso");
+
+        hamburgerMenu.style.display = "none";
+        console.log(hamburgerMenu);
+    }
+)
